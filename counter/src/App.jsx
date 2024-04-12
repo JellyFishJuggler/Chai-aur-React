@@ -17,6 +17,12 @@ function App() {
     count = count - 1;
     setCounter(count);
   }
+  if (count <= 0) {
+    count = 0;
+  }
+  if(count >= 20){
+    count = 20;
+  }
 
   return (
     <>
